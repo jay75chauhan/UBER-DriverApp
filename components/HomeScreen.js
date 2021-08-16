@@ -37,7 +37,7 @@ const HomeScreen = () => {
       </View>
       {/*  bottom bar */}
       <View
-        style={tw`z-10 flex-row justify-between items-center absolute bottom-24 px-4  w-full`}
+        style={tw`z-10 flex-row justify-between items-center absolute bottom-28 px-4  w-full`}
       >
         <TouchableOpacity
           style={tw`p-3 bg-gray-100 shadow-2xl rounded-full mt-auto border-2 border-blue-600`}
@@ -80,7 +80,7 @@ const HomeScreen = () => {
         />
       </MapView>
       <View
-        style={tw`bg-white p-5 flex-row justify-between  items-center rounded-t-3xl bg-gray-50 `}
+        style={tw`bg-white p-5 flex-row justify-between shadow-md items-center rounded-t-3xl bg-gray-50 `}
       >
         <Ionicons
           name="filter"

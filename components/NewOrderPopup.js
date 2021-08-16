@@ -10,16 +10,20 @@ const NewOrderPopup = () => {
 
   return (
     <View
-      style={tw`absolute z-20  w-full h-full justify-between flex  bottom-0 p-5`}
+      style={[
+        tw`absolute z-20  w-full h-full shadow-md justify-between flex  bottom-0 p-5`,
+        ,
+        { backgroundColor: "#00000099" },
+      ]}
     >
       <Pressable
         onPress={onDecline}
-        style={tw`mt-8 mr-auto bg-transparent shadow rounded-full `}
+        style={tw`mt-8 mr-auto bg-transparent shadow-md rounded-full `}
       >
         <Text
-          style={tw` text-gray-200 bg-gray-700 text-lg p-4 px-5 rounded-full`}
+          style={tw` text-gray-200 bg-gray-800 text-lg py-3 px-5 rounded-full`}
         >
-          X Decline
+          {`X  Decline`}
         </Text>
       </Pressable>
       <View
